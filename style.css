@@ -1,0 +1,31 @@
+.box{
+    height: 100px;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#grad-1{
+    background-image: linear-gradient(red, green, yellow);
+}
+#grad-2{
+    background-image: linear-gradient(to left, red, pink, black);
+
+}
+#grad-3{
+    background-image: radial-gradient(red, green, yellow);
+}
+
+.para{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    text-decoration:none;
+    text-shadow: 5px 5px 5px gray;
+    text-transform: capitalize;
+    text-align: left;
+    font-style: italic;
+    
+
+}
